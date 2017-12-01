@@ -6,20 +6,6 @@ It has a number of commands:
 - walk counts distance for a given walk
 - mood modifies a song to help Gug get to sleep, the output to be played by Norm
 
-## Running Your Tests
-
-Tests for this program have been written using [pytest](http://pytest.org).
-In order to run these tests, you must have access to a pytest executable.
-To make install simpler, a script has been included to install (if necessary) and run pytest automatically.
-This script creates a [virtual environment][1] within the project so that no system files are affected.
-
-To run the tests, use the script as shown below:
-
-~~~shell
-# Assuming that you are at the top directory of your project
-./py.test
-~~~
-
 ## Running the Program
 
 To run the guginator, simply do the following:

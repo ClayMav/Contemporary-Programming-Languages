@@ -2,15 +2,6 @@
 
 This project contains a Python program designed to help Dr. Doofenshmirtz determine the names of his temporary employees.
 
-## Run The Tests
-
-To run your tests, do the following:
-
-~~~shell
-# Assuming that you are at the top directory of your project
-./py.test
-~~~~
-
 ## Running the Program
 
 To run the Avoid-inator, do the following:
