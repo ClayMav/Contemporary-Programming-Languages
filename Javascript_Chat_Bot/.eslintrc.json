@@ -1,0 +1,14 @@
+{
+    "extends": ["eslint:recommended", "google"],
+    "env": {
+        "es6": true,
+        "node": true,
+        "mocha": true
+    },
+    "rules": {
+        "indent": ["error", 2],
+        "no-tabs": 2,
+        "max-len": ["error", { "code": 80 }],
+        "no-invalid-this": 0
+    }
+}

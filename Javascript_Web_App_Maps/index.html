@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Delivery Track-inator</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/leaflet.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 text-center">
+          <div class="page-header">
+            <h1>Delivery Track-inator</h1>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-8 well well-sm">
+          <div id="map" style="width:100%; height:500px;"></div>
+        </div>
+        <div class="col-xs-4 text-center">
+          <form class="form-horizontal">
+            <div class="form-group">
+              <input id="resetZoom" class="btn btn-warning" type="submit" value="Reset Zoom"></input>
+            </div>
+          </form>
+          <h2>Completed Deliveries</h2>
+          <h4 id="noDeliveries">None completed yet!</h4>
+          <ul id="completedDeliveries">
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/leaflet.js"></script>
+    <script src="js/tracker.js"></script>
+  </body>
+</html>

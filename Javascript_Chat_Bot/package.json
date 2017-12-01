@@ -1,0 +1,23 @@
+{
+  "name": "small-talk-inator",
+  "version": "1.0.0",
+  "author": "Doofenshmirtz Evil Inc.",
+  "description": "A chat bot to keep Norm busy",
+  "dependencies": {
+    "chai": "4.1.2",
+    "coffee-script": "1.12.7",
+    "eslint": "4.8.0",
+    "eslint-config-google": "0.9.1",
+    "hubot": "2.19.0",
+    "hubot-help": "^0.2.2",
+    "hubot-shell": "1.0.2",
+    "hubot-test-helper": "1.8.1",
+    "mocha": "4.0.1",
+    "request": "2.83.0",
+    "rimraf": "2.6.2",
+    "tmp": "0.0.33",
+    "underscore": "1.8.3",
+    "underscore.string": "3.3.4",
+    "uuid": "3.1.0"
+  }
+}
